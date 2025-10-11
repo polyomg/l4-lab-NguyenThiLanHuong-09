@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 2 - Bài 2</title>
+</head>
+<body>
+<form th:action="@{/param/save/2021}" method="post">
+    <input type="text" name="y" value="2031"/>
+    <button type="submit">Save</button>
+</form>
+<ul>
+    <li th:text="${x}">[x sẽ hiển thị ở đây]</li>
+    <li th:text="${y}">[y sẽ hiển thị ở đây]</li>
+</ul>
+</body>
+</html>
