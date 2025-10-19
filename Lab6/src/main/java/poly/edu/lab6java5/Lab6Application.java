@@ -1,4 +1,4 @@
-package com.poly.lab6;
+package poly.edu.lab6java5;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
